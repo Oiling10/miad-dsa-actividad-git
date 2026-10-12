@@ -22,7 +22,8 @@ app.config.suppress_callback_exceptions = True
 # Load data from csv
 def load_data():
     """Función para cargar los datos de demanda energética 
-    desde el CSV y preparar el DataFrame."""
+    desde el CSV y preparar el DataFrame.
+    :return: DataFrame con los datos de demanda energética."""
     
     df = pd.read_csv("datos_energia.csv")
     df["time"] = pd.to_datetime(df["time"])
