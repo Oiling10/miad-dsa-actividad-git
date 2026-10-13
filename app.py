@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
-
+# Cambio de Ana Sofía en la rama anasofia-cambios
 
 app = dash.Dash(
     __name__,
